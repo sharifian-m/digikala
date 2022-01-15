@@ -1,0 +1,226 @@
+
+/* ================================================================ */
+/*          MOBILE  AMAZING_SUPERMARKET_OFFER_SECTION               */
+/* ================================================================ */
+.mobile-amazing-offer {
+    height: 365px;
+    margin-top: 15px;
+    padding: 15px 0;
+    background-color: #6BB927;
+  }
+  
+  .mobile-amazing-offer .overflow-x {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  
+  .mobile-amazing-offer .logo a img {
+    padding-top: 10px;
+  }
+  
+  .mobile-amazing-offer .logo .see-all {
+    margin-top: 10px;
+    padding: 9px 16px;
+    border-radius: 4px;
+    color: #fff;
+    background: transparent;
+    line-height: 1.571;
+  }
+  
+  .mobile-amazing-offer .logo .see-all span {
+    font-family: shabnam, sahel;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  
+  .mobile-amazing-offer .logo .see-all i {
+    padding-top: 6px;
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: 600
+  }
+  
+  .mobile-amazing-offer .amazing-item {
+    width: 207px;
+    height: 100%;
+    padding: 10px;
+  }
+  
+  .mobile-amazing-offer .amazing-item .thumbnail {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .mobile-amazing-offer .amazing-item p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    font-style: normal;
+    color: #2a2a2a;
+    margin: 0;
+  }
+  
+  .mobile-amazing-offer .amazing-item .cash-gift {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    font-style: normal;
+    color: #62666d;
+  }
+  
+  .mobile-amazing-offer .amazing-item .cash-gift img {}
+  
+  
+  .mobile-amazing-offer .amazing-item .sold-time .saled-percent {
+    color: #ACACAC;
+  }
+  
+  .mobile-amazing-offer .amazing-item .sold-time .time {
+    color: #726f6f;
+    font-size: 15px;
+    font-weight: 200;
+  }
+  
+  .mobile-amazing-offer .amazing-item .time {
+    margin-left: 2px;
+  }
+  
+  .mobile-amazing-offer .amazing-item .time span {}
+  
+  .mobile-amazing-offer .amazing-item .time i {}
+  
+  .mobile-amazing-offer .see-all-amazing i {
+    color: #0FABC6;
+    font-size: 50px;
+  }
+  
+  .mobile-amazing-offer .see-all-amazing text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #515151;
+  }
+
+/* ================================================================ */
+/*     AMAZING_SUPERMARKET_OFFER_SECTION_LARGER_DEVICES             */
+/* ================================================================ */
+
+.amazing-offer {
+    background-color: #6BB927;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    // padding: 15px 0;
+  }
+
+  .btn-outline-light {
+    width: 130px;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .amazing-item {
+    border-radius: 10px;
+    width: 255px;
+    height: 444px;
+  }
+  
+  .pic-size-in-div {
+    width: 170px;
+    height: 170px;
+  }
+  
+  .amazing-offer__logo__see-all button {
+    position: relative;
+    padding: 9px 16px;
+    font-size: 14px;
+    font-size: 1rem;
+    line-height: 1.571;
+    font-weight: 500;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+  }
+  
+  .describe {
+    text-align: right;
+    margin-top: 14px;
+    overflow: hidden;
+    max-width: 90%;
+    min-height: 50px;
+    font-size: 12px;
+    /* font-size: .857rem; */
+    line-height: 25px;
+    color: #535353;
+    align-self: flex-start;
+  }
+  
+
+
+  .price-off span {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: #FB3449;
+    padding: 1px 14px;
+    border-radius: 20px;
+  }
+  
+  .price-off del {
+    color: #ACACAC;
+    font-size: 16px;
+    margin-left: 2px;
+  }
+  
+  .price-actual {
+    color: #000;
+    align-self: flex-end;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .saled-percent {
+    color: #ACACAC;
+  }
+  
+  .time {
+    color: #726f6f;
+    font-size: 15px;
+    font-weight: 200;
+  }
+  
+  .time span {
+    margin-left: 2px;
+  }
+  .carousel-control span i {
+    padding: 25px 10px;
+    background-color: white;
+    position: absolute;
+    top: 25%;
+    color: #080808;
+    font-size: 30px;
+    // font-weight: 900;
+    z-index: 100;
+  }
+  
+  
+.carousel-control-prev span i {
+  -webkit-box-shadow: -1.5px 0 4px 0 rgb(0 0 0 / 15%);
+  box-shadow: -1.5px 0 4px 0 rgb(0 0 0 / 15%);
+  border-radius: 8px 0 0 8px;
+  right: 24%;
+}
+
+.carousel-control-next span i {
+  -webkit-box-shadow: 1.5px 0 4px 0 rgb(0 0 0 / 15%);
+  box-shadow: 1.5px 0 4px 0 rgb(0 0 0 / 15%);
+  border-radius: 0 8px 8px 0;
+  left: 13%;
+}
+ 
+  

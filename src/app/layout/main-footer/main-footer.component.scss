@@ -1,0 +1,326 @@
+footer{
+    width: 100%;
+   
+  }
+  .footer-contaier{
+    width: 100%;
+    background-color: #ffffff; 
+  }
+  
+  footer ul{
+    padding: 0;
+  }
+  .back-to-top button{
+    border-radius: 10px;
+    padding: 4px 20px;
+    font-size: 14px;
+    font-weight: 700;
+  line-height: 30px;
+  color: #a1a3a8;
+  border: 1px solid #8f8d8d5b;
+  
+  }
+  .back-to-top button .bi-chevron-up{
+    font-size: 14px;
+    font-weight: 700;
+  color: #a1a3a8;
+  }
+  .contact-us{
+    max-width: 700px;
+    height: 40px;
+    min-width: 400px;
+  }
+  .contact-us pre{
+  position: relative;
+  font-size: 12px;
+  font-weight: 400px;
+  letter-spacing: 0.5px;
+  line-height: 26px;
+  color: #424750;
+  }
+  .vr {
+    display: inline-block;
+    align-self: center;
+    width: 1px;
+  }
+  .originality p{
+    font-size: 12px;
+      line-height: 21px;
+      color: #424750;
+   
+  }
+  .originality img{
+  width:60px ;
+  height: 40px;
+  margin-bottom: 10px;
+  
+  }
+  .footer-item p ,  .social p {
+    letter-spacing:0.5px;
+    font-size: 16px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #424750;
+  font-style: normal;
+  
+  }
+  .footer-item ul {
+    padding:0;
+    list-style:none;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  .footer-item a{
+    font-size: 14px;
+    line-height: 38px;
+    font-weight: 400;
+    color: #6e8dbd;
+    font-style: normal;
+    }
+    .footer-item ul a {
+    opacity:0.8;
+  }
+  
+  .footer-item ul a:hover {
+    opacity:1;
+  }
+  .social a{
+    font-size: 24px;
+    line-height: 0;
+    font-weight: 400;
+    color: #6e6f72;
+    font-style: normal;
+    opacity: 0.7;
+  }
+  .social a:hover{
+    opacity: 1;
+  }
+  .newest-auction{
+    margin-top: 40px;
+  }
+  .social input[type="text"]{
+    width: 340px;
+    height:50px ;
+    font-size: 15px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #81858b;
+    font-style: normal;
+    background-color: #F0F0F1;
+    border-radius: 10px;
+    border: none;
+    padding-right: 15px;
+  }
+  
+  .social input[type="submit"]{
+    width: 60px;
+    height:50px ;
+    background-color:#e0e0e2;
+    color: #777474;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .download-app {
+  height: 76px;
+  background-color: #3C4B6D;
+  border-radius: 8px;
+  }
+  .download-app__logo a span{
+      font-size: 18px;
+    line-height: 38px;
+    font-weight: 500;
+    color: white;
+    font-style: normal;
+    margin-right: 10px;
+  }
+  
+  .download-apps a img  {
+  width: 150px;
+  height: 50px;
+  margin:0  5px; 
+  }
+  .download-apps a button{
+    width: 46px;
+  height: 46px;
+  margin:0  5px; 
+  border-radius: 8px;
+  border: 0;
+  outline: none;
+  }
+  .download-apps a button i{
+    font-size: 20px;
+  font-weight: 800;
+  color: #000000;
+  font-style: normal;
+  }
+  .symbols a {
+    padding:15px 20px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 8px;
+  }
+  .symbols a img{
+    width: 80px;
+    height:80 px;
+  }
+  .about-diji__text-title{
+    font-size: 14px;
+    font-weight: 700;
+    color: #424750;
+    font-style: normal;
+  }
+  .about-diji__text{
+    font-size: 12px;
+    font-weight: 300;
+    color: #a2a5aa;
+    font-style: normal;
+  }
+  .about-diji__see-more , .about-diji__see-more i{
+    font-size: 12px;
+    font-weight: 600;
+    color: #a2a5aa;
+    font-style: normal;
+  
+  }
+  .copy-right{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #a2a5aa;
+    font-style: normal;
+    
+  }
+  
+  .barnds-apps__link{
+     display: flex;
+    justify-content: center;
+    align-items: center;  
+     width: 100%; 
+  
+  }
+  .barnds-apps{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+  }
+  
+  .brands-apps > div {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  border: 1px solid rgb(209, 209, 209);
+  width: 104px;
+  height: 104px;
+  }
+  /* --------------------------end- footer--------------------- */
+  /* --------------------------------mobile--device------------------------ */
+  
+  @media screen and (max-width: 768px) {
+    .amazing-offer {
+      display: none;
+    }
+  
+    .amazing-supermarket-offer {
+      display: none;
+    }
+  
+    .equipment-momentary {
+      display: none;
+    }
+  
+    .recent-popular {
+      display: none;
+    }
+  
+    .more-category-section {
+      display: none;
+    }
+  
+    .Personalization-Frozen {
+      display: none;
+    }
+  
+    .Children-omfort-clothings {
+      display: none;
+    }
+  
+    .horizontal-hr {
+      display: block;
+    }
+  
+    .berands {
+      display: none;
+    }
+  
+    .selected-the-newest {
+      display: none;
+    }
+    .seleced-Discounts{
+      display: none;
+    }
+    /* .your-Recent-visit{
+      display: none;
+    } */
+  
+    /* .mobile-amazing-offer::-webkit-scrollbar,
+    .mobile-amazing-supermarket-offer::-webkit-scrollbar,
+    .mobile-device-item::-webkit-scrollbar {
+      display: none;
+    } */
+    .mobile-amazing-offer {
+      display: flex;
+      flex-direction: row;
+      background-color: #EF394E;
+      overflow-x: auto;
+    }
+  
+    .mobile-amazing-supermarket-offer {
+      display: flex;
+      flex-direction: row;
+      background-color: #6BB927;
+      overflow-x: auto;
+    }
+  
+    .mobile-device-item {
+      display: flex;
+      flex-direction: row;
+      background-color: #ffffff;
+      overflow-x: auto;
+    }
+  
+    .mobile-device-berand-item {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: flex-start;
+    }
+  
+    .mobile-device-berand-item>a {
+      width: 100px;
+      margin: 5px;
+      text-align: center;
+      line-height: 75px;
+      /* font-size: 30px; */
+    }
+  
+    .mobile-device-berand-item>a img {
+      border-radius: 10px;
+      -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    }
+  
+    .mobile-device-container {
+      background-color: transparent;
+      display: flex;
+      flex-direction: column;
+      /* align-content: flex-start; */
+    }
+  
+    .border-shadow {
+      background-color: #ffffff;
+      border-radius: 10px;
+      -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+  
+    }
+    
+  }
